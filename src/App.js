@@ -1,10 +1,10 @@
 import { EventCapture } from "./utilities/EventCapture";
 import "./App.css";
 
-function App() {
+const App = () => {
   const buttonTitle = "Click Me";
   const dummyProps = {
-    button: "Homepage-Button",
+    buttonRef: "Homepage-Button",
     path: window.location.href,
     buttonTitle: buttonTitle,
   };
@@ -18,6 +18,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
